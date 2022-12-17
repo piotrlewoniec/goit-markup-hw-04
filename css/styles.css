@@ -169,6 +169,7 @@ body {
 .header-links:focus,
 .header-links:hover {
   color: var(--selected-item-color);
+  stroke: var(--selected-item-color);
 }
 
 .header-links:visited {
@@ -229,6 +230,9 @@ body {
   background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/decorations/teambackground.jpg');
   background-position: center;
+  background-repeat: no-repeat;
+  /* max-width: 1600px;
+  margin: 0 auto; */
   /* background-size: contain; */
 }
 
@@ -304,6 +308,7 @@ body {
 .portfolio-list-style > li:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .portfolio-list-border {
@@ -452,15 +457,6 @@ body {
 
 /*Decorations Header*/
 
-.icon-header {
-  stroke-width: 0.9;
-}
-
-.icon-header:focus,
-.icon-header:hover {
-  stroke: var(--selected-item-color);
-}
-
 .icon-header-env-position {
   padding-right: 10px;
   padding-top: 4px;
@@ -507,11 +503,6 @@ body {
   background-color: var(--second-nonselected-item-color);
   border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.advantages-icon-diagram {
-  padding-top: 33.2px;
-  padding-bottom: 33.11px;
 }
 
 .team-icons-position {
