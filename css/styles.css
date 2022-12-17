@@ -24,6 +24,10 @@ body {
 
 /*web site common settings*/
 
+.links_focus_settings {
+  outline: none;
+}
+
 .header-one {
   font-weight: 900;
   font-size: 44px;
